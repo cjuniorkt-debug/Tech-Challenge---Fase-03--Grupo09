@@ -51,7 +51,7 @@ Fontes (Kaggle / Data Hackers)
 | Visualização | Looker Studio (Google Data Studio) + PPT/PDF | Dashboards e storytelling executivo |
 | Orquestração | AWS CLI + scripts bash | Upload, deploy e execução dos jobs |
 
-Diagrama detalhado: [[`Arquitetura_AWS_V3.drawio`](Arquitetura_AWS_V3.drawio)](https://github.com/cjuniorkt-debug/Tech-Challenge---Fase-03--Grupo09/blob/main/arquitetura/Arquitetura_AWS%20V3.drawio) (também disponível como `arquitetura-aws.drawio`).
+Diagrama detalhado: https://github.com/cjuniorkt-debug/Tech-Challenge---Fase-03--Grupo09/blob/main/arquitetura/Arquitetura_AWS%20V3.drawio
 
 ---
 
