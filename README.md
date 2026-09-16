@@ -161,7 +161,7 @@ Após a Gold: executar o **Glue Crawler** sobre `s3://<bucket>/gold/` (`table le
 
 **FIAP — Tech Challenge Fase 3 · Grupo 142**
 
-| Nome | Papel no projeto |
+| Nome | RM |
 
 Celso Koiti Tanaka Junior - RM373390
 
