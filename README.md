@@ -51,7 +51,7 @@ Fontes (Kaggle / Data Hackers)
 | Visualização | Looker Studio (Google Data Studio) + PPT/PDF | Dashboards e storytelling executivo |
 | Orquestração | AWS CLI + scripts bash | Upload, deploy e execução dos jobs |
 
-Diagrama detalhado: [`Arquitetura_AWS_V3.drawio`](Arquitetura_AWS_V3.drawio) (também disponível como `arquitetura-aws.drawio`).
+Diagrama detalhado: [[`Arquitetura_AWS_V3.drawio`](Arquitetura_AWS_V3.drawio)](https://github.com/cjuniorkt-debug/Tech-Challenge---Fase-03--Grupo09/blob/main/arquitetura/Arquitetura_AWS%20V3.drawio) (também disponível como `arquitetura-aws.drawio`).
 
 ---
 
@@ -101,31 +101,26 @@ Diagrama detalhado: [`Arquitetura_AWS_V3.drawio`](Arquitetura_AWS_V3.drawio) (ta
 
 ## Estrutura do repositório
 
-```text
-state-of-data-pipeline-aws/
-├── Arquitetura_AWS_V3.drawio         # Diagrama de arquitetura (V3)
-├── arquitetura-aws.drawio            # Versão anterior do diagrama
-├── config.py                         # Parâmetros do ambiente (bucket, jobs)
-├── PLAN.md                           # Roteiro operacional no AWS Academy Lab
-├── README.md                         # Este documento
-├── data/
-│   └── dictionary/
-│       └── mapa_campos.csv           # Dicionário de unificação Silver
-├── jobs/
-│   ├── 01_bronze_ingestion.py        # Glue Job sod-01-bronze
-│   ├── 02_silver_unificacao.py       # Glue Job sod-02-silver
-│   └── 03_gold_indicadores.py        # Glue Job sod-03-gold
-├── notebooks/                        # Versão interativa equivalente (opcional)
-│   ├── 01_bronze_ingestion.ipynb
-│   ├── 02_silver_unificacao.ipynb
-│   └── 03_gold_indicadores.ipynb
-├── scripts/
-│   ├── upload_to_s3.sh               # Carga de raw, dicionário e utilitários
-│   ├── deploy_jobs.sh                # Publicação dos Glue Jobs
-│   └── run_job.sh                    # Execução e monitoramento de um Job
-└── src/
-    └── pipeline_utils.py             # Funções compartilhadas (extra-py-files)
-```
+tech-challenge-fase-3/
+│
+├── Apresentação/
+└── tech_challenge_fase_3.pdf
+├── Arquitetura
+│   ├── 01_raw_to_silver.py
+│   ├── 02_silver_to_gold.py
+│
+│
+|── data/
+│   ├── Bronze
+│   ├── Silver
+|   ├── Gold
+|
+├── arquitetura/
+│   ├── arquitetura_aws.drawio
+│   └── arquitetura_aws.png
+│
+│
+├── README.md
 
 ## Fonte dos dados
 
