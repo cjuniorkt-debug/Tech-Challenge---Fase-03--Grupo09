@@ -162,9 +162,14 @@ Após a Gold: executar o **Glue Crawler** sobre `s3://<bucket>/gold/` (`table le
 **FIAP — Tech Challenge Fase 3 · Grupo 142**
 
 | Nome | Papel no projeto |
-|------|------------------|
-| Fabricio Alves | Engenharia de dados / pipeline / relatório |
-| Fany Bueno | Ambiente AWS (Glue, S3, Athena) |
-| Matheus | Objetivos de análise / perguntas de negócio |
 
-> Se houver mais integrantes do grupo, inclua-os nesta seção antes da entrega final.
+Celso Koiti Tanaka Junior - RM373390
+
+Fabrício Henrique Cardoso Alves - RM373892
+
+Jéssica da Silva Heringer Fontenele - RM366487
+
+Matheus Palmeira da Costa - RM371493
+
+Stefanie Mattoso Pereira Bueno - RM371695
+
