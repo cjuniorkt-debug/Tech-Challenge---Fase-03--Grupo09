@@ -127,24 +127,6 @@ state-of-data-pipeline-aws/
     └── pipeline_utils.py             # Funções compartilhadas (extra-py-files)
 ```
 
-### Execução rápida (AWS Academy Lab)
-
-```bash
-cd state-of-data-pipeline-aws
-export BUCKET=raw-bkt-806188865054
-
-./scripts/upload_to_s3.sh
-./scripts/deploy_jobs.sh
-
-./scripts/run_job.sh sod-01-bronze
-./scripts/run_job.sh sod-02-silver
-./scripts/run_job.sh sod-03-gold
-```
-
-Após a Gold: executar o **Glue Crawler** sobre `s3://<bucket>/gold/` (`table level = 3`), database `state_of_data`, e consultar no **Athena**.
-
----
-
 ## Fonte dos dados
 
 | Item | Detalhe |
